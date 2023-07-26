@@ -1,0 +1,26 @@
+body{
+  background-color: #D9D9D9;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+header {
+  background-color: #CACACA;
+  padding: 10px;
+}
+
+.titulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 90px;
+}
+
+.titulo i {
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.titulo h1 {
+  margin: 0;
+}
