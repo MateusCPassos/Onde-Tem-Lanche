@@ -1,0 +1,36 @@
+body{
+  background-color: #D9D9D9;
+  overflow-x: hidden;
+  margin: 0;
+
+  --cor-header: #CACACA;
+  --cor-destaque: #FF8000;
+  --cor-preta: #000;
+  --cor-branca: #fff;
+}
+
+
+header {
+  background-color:var(--cor-header);
+  padding: 10px;
+}
+
+.titulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 90px;
+}
+
+.titulo i {
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.titulo h1 {
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}

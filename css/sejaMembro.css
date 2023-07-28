@@ -1,0 +1,50 @@
+h1{
+  color: var(--cor-destaque);
+  font-family: 'Inter', sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.container {
+  content: "";
+  display: table;
+  clear: both;
+  margin: 30px;
+  text-align: center;
+}
+
+.texto {
+  width: 50%;
+  float: left;
+}
+
+p {
+  padding: 10px;
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: Arial, sans-serif;
+  border-radius: 25px;
+  text-align: justify;
+}
+
+img {
+  float: right;
+  margin-left: 15px;
+  width: 550px;
+  border-radius: 25px;
+}
+
+.botao-membro {
+  padding: 28px 33px 29px 33px;
+  background-color: var(--cor-destaque);
+  color: #fff;
+  border: none;
+  border-radius: 90px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
