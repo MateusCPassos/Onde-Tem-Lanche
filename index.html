@@ -1,1 +1,125 @@
-<h1>olddvfv</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Onde tem lanche</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Raleway:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="titulo">
+      <i class="fa-solid fa-bars" style="color: #f08000;"></i>
+      <a href="index.html">
+      <h1 class="amarelo">Aonde<span class="preto">Tem</span>Lanche</h1>
+      </a>
+      <a href="editar-usuario.html">
+        <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+          <lord-icon
+              src="https://cdn.lordicon.com/dxjqoygy.json"
+              trigger="hover"
+              colors="primary:#ff8000,secondary:#ff8000"
+              stroke="80"
+              state="hover-looking-around"
+              style="width:50px;height:50px">
+          </lord-icon>
+      </a>
+    </div>
+  </header>
+  <main>
+    <h1>Aonde tem Lanche</h1>
+    <p class="texto">Veja os lanches que estão mais próximos de você  </p>
+
+    <div class="mapContainer">
+      <div class="mapBox">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116597.52166288612!2d-52.473574905853425!3d-24.042609575263025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ed751052cee71d%3A0x72e478adcc937cc6!2sCampo%20Mour%C3%A3o%2C%20PR!5e0!3m2!1spt-BR!2sbr!4v1690829964184!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+    <h3>locais sugeridos</h3>
+    <div class="restaurant-container">
+      <div class="restaurant">
+        <h2>HamBurneria</h2>
+
+        <div class="sugeridos"></div>
+        <div class="image">
+          <img src="images/imagem hamburge.jpg" alt=" hamburgeria hamburge">
+        </div>
+        <p class="description"> Bem-vindo à HamBurneria! Somos uma hamburgueria apaixonada por criar experiências únicas, com hambúrgueres suculentos feitos com ingredientes frescos e selecionados. Delicie-se com nossas combinações especiais e aproveite um ambiente acolhedor, ideal para momentos saborosos com amigos e familiares. Venha nos visitar e descubra o sabor inigualável da HamBurneria!</p>
+        <div class="info">
+          <span class="stars"><i class="fa-regular fa-star" style="color: #ff8000;">5.0</i></span>
+          <span class="distance"><i class="fa-solid fa-location-dot" style="color: #ff8000;">3.3</i></span>
+          <span class="heart"><i class="fa-regular fa-heart" style="color: #ff0000;"></i></span>
+        </div>
+        <div class="button-container">
+          <button id="saiba-mais" onclick="changeColor()">Saiba mais</button>
+        </div>  
+      </div>
+      
+  
+      <div class="restaurant">
+        <h2> Pizzeria Paradise</h2>
+        <div class="image">
+          <img src="images/imagem pizzaria.jpg" alt=" Pizzeria Paradise">
+        </div>
+        <p class="description">Bem-vindo à Pizzeria Paradise! Somos uma pizzaria apaixonada por criar experiências únicas, com pizzas autênticas feitas com ingredientes frescos e selecionados. Delicie-se com nossas combinações de coberturas e aproveite um ambiente acolhedor, perfeito para momentos especiais com amigos e familiares. Venha nos visitar e descubra o paraíso das pizzas!</p>
+        <div class="info">
+          <span class="stars"><i class="fa-regular fa-star" style="color: #ff8000;">4.8</i></span>
+          <span class="distance"><i class="fa-solid fa-location-dot" style="color: #ff8000;">0.8</i></span>
+          <span class="heart"><i class="fa-regular fa-heart" style="color: #ff0000;"></i></span>
+        </div>
+        <div class="button-container">
+          <button id="saiba-mais" onclick="changeColor()">Saiba mais</button>
+        </div>
+      </div>
+    </div>
+      
+    <h4>Junta-se a <span>Nos</span>!</h4>
+
+    <div class="restaurant-container">
+    <div class="restaurant">
+      <div class="image">
+      <img src="images/registre.jpg" alt="Registre seu Lanche">
+      </div>
+      <h2>Registre seu lanche</h2>
+      <p class="description">
+        Registre seu lanche em nosso site para
+        alcançar mais pessoas e ter alguns beneficios 
+        no nosso site
+      </p>
+      <div class="button-container">
+        <button class="saiba-mais">Saiba mais</button>
+      </div>
+    </div>
+
+    <div class="restaurant">
+      <div class="image">
+      <img src="images/sejaMembro.jpg" alt="seja membro">
+    </div>
+      <h2>Torna-se membro</h2>
+      <p class="description">
+        Vire nosso membro para ajudar a dar 
+        continuidade no nosso site
+        descontos e recompensas imperdíveis
+        para membros
+      </p>
+      <a href="sejaMembro.html">
+      <div class="button-container">
+        <button class="saiba-mais">Saiba mais</button>
+      </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+  </main>
+  <footer>
+
+  </footer>
+  
+</body>
+</html>

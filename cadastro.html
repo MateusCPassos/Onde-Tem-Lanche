@@ -7,6 +7,9 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/cadastro.css">
   <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Raleway:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -16,13 +19,21 @@
       <h1 class="amarelo">Aonde<span class="preto">Tem</span>Lanche</h1>
       </a>
       <a href="editar-usuario.html">
-        <i class="far fa-circle-user" style="color: #f08000;"></i>
+        <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+          <lord-icon
+              src="https://cdn.lordicon.com/dxjqoygy.json"
+              trigger="hover"
+              colors="primary:#ff8000,secondary:#ff8000"
+              stroke="80"
+              state="hover-looking-around"
+              style="width:50px;height:50px">
+          </lord-icon>
       </a>
     </div>
   </header>
 
   <main>
-    <h2> <span class="preto">boas</span> Vindas<span class="preto">!</span></h2>
+    <h2> <span class="preto">Boas</span> Vindas<span class="preto">!</span></h2>
     <form>
       <div>
         <label for="email">E-mail:</label>
@@ -48,11 +59,14 @@
         <label for="senhaConfirmada">Confirmar a Senha:</label>
         <input type="password" id="passwordConfirmed" name="passwordConfirmed" required>
       </div>
+      </br>
+
+      <a href="login.html" class="botao-cadastro">Cadastrar</a>
 
       </br>
     </form>
-    </br>
-    <a href="login.html" class="botao-cadastro">Cadastrar</a>
+
+    
   </main>
   <footer>
 
