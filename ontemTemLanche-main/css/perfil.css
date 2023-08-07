@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+   
+}
+
+.header-usuario {
+    background-color: #D9D9D9; 
+}
+
+.nav-usuario {
+    display: flex;
+    background-color: #D9D9D9;
+    justify-content: flex-end;
+}
+
+.perfil_usuario{
+    padding-top: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foto-perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 6vh;
+    position: relative;
+  }
+
+
+  .foto-perfil img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .formulario {
+    margin-top: 20px;
+    width: 35%;
+  }
+
+  input {
+    border: 1px solid #ccc; 
+    border-radius: 30px;
+    padding: 10px; 
+    width: 100%; 
+    outline: none; 
+  }
+  
+  
+  input:focus {
+    border-color: var(--cor-preta); 
+    box-shadow: 0 0 5px var(--cor-preta); 
+  }
+
+  .campo-nome {
+    position: relative;
+    margin-bottom: 45px;
+  }
+  
+  .campo-nome i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #000;
+  }
+  
+  
+  .campo-nome i:hover {
+    color: #ccc; 
+  }
+
+  .botao-login{
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--cor-destaque);
+    color: var(--cor-branca);
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    color: var(--cor-branca);
+  }
+  
+  .botao-login:hover {
+    background-color: #FFA500;
+  }
+  
+  .botao-login:active {
+    background-color: #FF6347;
+  }
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+  
